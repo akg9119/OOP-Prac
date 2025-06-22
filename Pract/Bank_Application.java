@@ -1,5 +1,6 @@
 package Pract;
 
+
 interface AccountOperations {
 
     void deposit(double amount);
@@ -76,7 +77,12 @@ class CurrentAccount implements AccountOperations {
     }
 }
 
-
+// Task 1: Banking System
+// OOP Concepts: Interface, Inheritance, Encapsulation
+// Description:
+// Create an interface AccountOperations with methods deposit(), withdraw(), and checkBalance().
+// Create classes SavingsAccount and CurrentAccount that implement this interface.
+// Use constructor and encapsulation to manage balance.
 public class Bank_Application {
 
     public static void main(String[] args) {
